@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="আপনার নাম (Receiver এর স্ক্রিনে এই নামটা দেখাবে):"
+        android:textSize="14sp"
+        android:layout_marginBottom="4dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="24dp">
+
+        <EditText
+            android:id="@+id/callerNameInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:inputType="textPersonName"
+            android:hint="আপনার নাম লিখুন" />
+
+        <Button
+            android:id="@+id/btnSaveName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="সংরক্ষণ" />
+    </LinearLayout>
+
+    <Button android:id="@+id/btnCall1" android:layout_width="match_parent" android:layout_height="64dp"
+        android:text="Receiver 1 কে কল করুন" android:layout_marginBottom="14dp" />
+    <Button android:id="@+id/btnCall2" android:layout_width="match_parent" android:layout_height="64dp"
+        android:text="Receiver 2 কে কল করুন" android:layout_marginBottom="14dp" />
+    <Button android:id="@+id/btnCall3" android:layout_width="match_parent" android:layout_height="64dp"
+        android:text="Receiver 3 কে কল করুন" android:layout_marginBottom="14dp" />
+    <Button android:id="@+id/btnCall4" android:layout_width="match_parent" android:layout_height="64dp"
+        android:text="Receiver 4 কে কল করুন" android:layout_marginBottom="14dp" />
+    <Button android:id="@+id/btnCall5" android:layout_width="match_parent" android:layout_height="64dp"
+        android:text="Receiver 5 কে কল করুন" />
+
+</LinearLayout>
+</ScrollView>

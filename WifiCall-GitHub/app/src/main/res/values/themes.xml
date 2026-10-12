@@ -1,0 +1,9 @@
+<resources>
+    <style name="Theme.WifiCall" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
+
+    <style name="Theme.WifiCall.IncomingCall" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+</resources>

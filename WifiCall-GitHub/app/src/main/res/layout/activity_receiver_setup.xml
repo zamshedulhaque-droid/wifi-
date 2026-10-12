@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="এই ফোনটি এখনো কোনো Receiver স্লট হিসেবে সক্রিয় নয়"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnDndAccess"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Silent/DND-এও রিং বাজাতে Access দিন"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="এই ফোনটিকে কোন Receiver বানাতে চান? (চাইলে প্রতিটার একটা নাম দিন, যেমন: করিম ভাই)"
+        android:textSize="16sp"
+        android:layout_marginBottom="12dp" />
+
+    <EditText android:id="@+id/nameSlot1" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Receiver 1 এর নাম (ঐচ্ছিক)" android:layout_marginBottom="4dp" android:inputType="textPersonName" />
+    <Button android:id="@+id/btnSlot1" android:layout_width="match_parent" android:layout_height="56dp"
+        android:text="Receiver 1 হিসেবে চালু করুন" android:layout_marginBottom="14dp" />
+
+    <EditText android:id="@+id/nameSlot2" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Receiver 2 এর নাম (ঐচ্ছিক)" android:layout_marginBottom="4dp" android:inputType="textPersonName" />
+    <Button android:id="@+id/btnSlot2" android:layout_width="match_parent" android:layout_height="56dp"
+        android:text="Receiver 2 হিসেবে চালু করুন" android:layout_marginBottom="14dp" />
+
+    <EditText android:id="@+id/nameSlot3" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Receiver 3 এর নাম (ঐচ্ছিক)" android:layout_marginBottom="4dp" android:inputType="textPersonName" />
+    <Button android:id="@+id/btnSlot3" android:layout_width="match_parent" android:layout_height="56dp"
+        android:text="Receiver 3 হিসেবে চালু করুন" android:layout_marginBottom="14dp" />
+
+    <EditText android:id="@+id/nameSlot4" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Receiver 4 এর নাম (ঐচ্ছিক)" android:layout_marginBottom="4dp" android:inputType="textPersonName" />
+    <Button android:id="@+id/btnSlot4" android:layout_width="match_parent" android:layout_height="56dp"
+        android:text="Receiver 4 হিসেবে চালু করুন" android:layout_marginBottom="14dp" />
+
+    <EditText android:id="@+id/nameSlot5" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Receiver 5 এর নাম (ঐচ্ছিক)" android:layout_marginBottom="4dp" android:inputType="textPersonName" />
+    <Button android:id="@+id/btnSlot5" android:layout_width="match_parent" android:layout_height="56dp"
+        android:text="Receiver 5 হিসেবে চালু করুন" android:layout_marginBottom="24dp" />
+
+    <Button android:id="@+id/btnStop" android:layout_width="match_parent" android:layout_height="56dp"
+        android:text="Receiver বন্ধ করুন" />
+
+</LinearLayout>
+</ScrollView>
